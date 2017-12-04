@@ -1,0 +1,34 @@
+--------------------------------------------------------------------------
+[[1171,1],3]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: p8umbc1
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Auto processor grid settings: npes=20 PE_X=5 PE_Y=2 PE_Z=2
+RMG running with 20 MPI procs per host and 8 threads per MPI proc set automatically.
+OMP_NUM_THREADS environment variable was not set so using automatically determined value of 8.
+C4: Numa aware allocation with 20 MPI procs, 160 cores and 2 numa nodes per host.

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libForce.a  CMakeFiles/Force.dir/CorrectForces.cpp.o CMakeFiles/Force.dir/Lforce.cpp.o CMakeFiles/Force.dir/constrain.c.o CMakeFiles/Force.dir/Force.cpp.o CMakeFiles/Force.dir/IIforce.cpp.o CMakeFiles/Force.dir/Nlccforce.cpp.o
+/usr/bin/ranlib libForce.a

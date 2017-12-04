@@ -1,0 +1,949 @@
+The system is: Linux - 4.10.0-35-generic - ppc64le
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /usr/bin/f95 
+Build flags: 
+Id flags: -v
+
+The output was:
+0
+Driving: /usr/bin/f95 -v CMakeFortranCompilerId.F -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/bin/f95
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/powerpc64le-linux-gnu/5/lto-wrapper
+Target: powerpc64le-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/IBM 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-ppc64el/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-ppc64el --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-ppc64el --with-arch-directory=ppc64le --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-secureplt --with-cpu=power8 --enable-targets=powerpcle-linux --disable-multilib --enable-multiarch --disable-werror --with-long-double-128 --enable-checking=release --build=powerpc64le-linux-gnu --host=powerpc64le-linux-gnu --target=powerpc64le-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu/IBM 5.4.0-6ubuntu1~16.04.4) 
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mcpu=power8'
+ /usr/lib/gcc/powerpc64le-linux-gnu/5/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/cco53KIF.f90 -quiet -v -imultiarch powerpc64le-linux-gnu -D__unix__ -D__gnu_linux__ -D__linux__ -Dunix -D__unix -Dlinux -D__linux -Asystem=linux -Asystem=unix -Asystem=posix CMakeFortranCompilerId.F -msecure-plt -quiet -dumpbase CMakeFortranCompilerId.F -mcpu=power8 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /usr/lib/gcc/powerpc64le-linux-gnu/5/finclude -o /tmp/ccwsEInm.s
+GNU Fortran (Ubuntu/IBM 5.4.0-6ubuntu1~16.04.4) version 5.4.0 20160609 (powerpc64le-linux-gnu)
+	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/powerpc64le-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../../powerpc64le-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/powerpc64le-linux-gnu/5/finclude
+ /usr/lib/gcc/powerpc64le-linux-gnu/5/include
+ /usr/local/include
+ /usr/lib/gcc/powerpc64le-linux-gnu/5/include-fixed
+ /usr/include/powerpc64le-linux-gnu
+ /usr/include
+End of search list.
+GNU Fortran2008 (Ubuntu/IBM 5.4.0-6ubuntu1~16.04.4) version 5.4.0 20160609 (powerpc64le-linux-gnu)
+	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mcpu=power8'
+ as -v -a64 -mpower8 -many -mlittle -o /tmp/ccoIEq32.o /tmp/ccwsEInm.s
+GNU assembler version 2.26.1 (powerpc64le-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.26.1
+Reading specs from /usr/lib/gcc/powerpc64le-linux-gnu/5/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mcpu=power8'
+COMPILER_PATH=/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/:/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/:/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../../lib/:/lib/powerpc64le-linux-gnu/:/lib/../lib/:/usr/lib/powerpc64le-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mcpu=power8'
+ /usr/lib/gcc/powerpc64le-linux-gnu/5/collect2 -plugin /usr/lib/gcc/powerpc64le-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/powerpc64le-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBkwkJJ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -V -m elf64lppc --hash-style=gnu --as-needed -dynamic-linker /lib64/ld64.so.2 -z relro /usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crt1.o /usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crti.o /usr/lib/gcc/powerpc64le-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/powerpc64le-linux-gnu/5 -L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu -L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../../lib -L/lib/powerpc64le-linux-gnu -L/lib/../lib -L/usr/lib/powerpc64le-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../.. /tmp/ccoIEq32.o -lgfortran -lm -lgcc_s -lgcc -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/powerpc64le-linux-gnu/5/crtend.o /usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crtn.o
+GNU ld (GNU Binutils for Ubuntu) 2.26.1
+  Supported emulations:
+   elf64lppc
+   elf32lppc
+   elf32lppclinux
+   elf32lppcsim
+   elf32ppclinux
+   elf32ppc
+   elf32ppcsim
+   elf64ppc
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/3.5.1/CompilerIdFortran/a.out"
+
+Determining if the Fortran compiler works passed with the following output:
+Change Dir: /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_061fa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_061fa.dir/build.make CMakeFiles/cmTC_061fa.dir/build
+make[1]: Entering directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_061fa.dir/testFortranCompiler.f.o
+/usr/bin/f95     -c /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_061fa.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_061fa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_061fa.dir/link.txt --verbose=1
+/usr/bin/f95       CMakeFiles/cmTC_061fa.dir/testFortranCompiler.f.o  -o cmTC_061fa  
+make[1]: Leaving directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f123a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f123a.dir/build.make CMakeFiles/cmTC_f123a.dir/build
+make[1]: Entering directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_f123a.dir/CMakeFortranCompilerABI.F.o
+/usr/bin/f95     -c /usr/share/cmake-3.5/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_f123a.dir/CMakeFortranCompilerABI.F.o
+Linking Fortran executable cmTC_f123a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f123a.dir/link.txt --verbose=1
+/usr/bin/f95    -v   CMakeFiles/cmTC_f123a.dir/CMakeFortranCompilerABI.F.o  -o cmTC_f123a   
+Driving: /usr/bin/f95 -v CMakeFiles/cmTC_f123a.dir/CMakeFortranCompilerABI.F.o -o cmTC_f123a -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/bin/f95
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/powerpc64le-linux-gnu/5/lto-wrapper
+Target: powerpc64le-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/IBM 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-ppc64el/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-ppc64el --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-ppc64el --with-arch-directory=ppc64le --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-secureplt --with-cpu=power8 --enable-targets=powerpcle-linux --disable-multilib --enable-multiarch --disable-werror --with-long-double-128 --enable-checking=release --build=powerpc64le-linux-gnu --host=powerpc64le-linux-gnu --target=powerpc64le-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu/IBM 5.4.0-6ubuntu1~16.04.4) 
+Reading specs from /usr/lib/gcc/powerpc64le-linux-gnu/5/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f123a' '-shared-libgcc' '-mcpu=power8'
+COMPILER_PATH=/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/:/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/:/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../../lib/:/lib/powerpc64le-linux-gnu/:/lib/../lib/:/usr/lib/powerpc64le-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f123a' '-shared-libgcc' '-mcpu=power8'
+ /usr/lib/gcc/powerpc64le-linux-gnu/5/collect2 -plugin /usr/lib/gcc/powerpc64le-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/powerpc64le-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfq32JU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -V -m elf64lppc --hash-style=gnu --as-needed -dynamic-linker /lib64/ld64.so.2 -z relro -o cmTC_f123a /usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crt1.o /usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crti.o /usr/lib/gcc/powerpc64le-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/powerpc64le-linux-gnu/5 -L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu -L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../../lib -L/lib/powerpc64le-linux-gnu -L/lib/../lib -L/usr/lib/powerpc64le-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../.. CMakeFiles/cmTC_f123a.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/powerpc64le-linux-gnu/5/crtend.o /usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crtn.o
+GNU ld (GNU Binutils for Ubuntu) 2.26.1
+  Supported emulations:
+   elf64lppc
+   elf32lppc
+   elf32lppclinux
+   elf32lppcsim
+   elf32ppclinux
+   elf32ppc
+   elf32ppcsim
+   elf64ppc
+make[1]: Leaving directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f123a/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f123a.dir/build.make CMakeFiles/cmTC_f123a.dir/build]
+  ignore line: [make[1]: Entering directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_f123a.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/usr/bin/f95     -c /usr/share/cmake-3.5/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_f123a.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [Linking Fortran executable cmTC_f123a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f123a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/f95    -v   CMakeFiles/cmTC_f123a.dir/CMakeFortranCompilerABI.F.o  -o cmTC_f123a   ]
+  ignore line: [Driving: /usr/bin/f95 -v CMakeFiles/cmTC_f123a.dir/CMakeFortranCompilerABI.F.o -o cmTC_f123a -l gfortran -l m -shared-libgcc]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/f95]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/powerpc64le-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: powerpc64le-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/IBM 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-ppc64el/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-ppc64el --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-ppc64el --with-arch-directory=ppc64le --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-secureplt --with-cpu=power8 --enable-targets=powerpcle-linux --disable-multilib --enable-multiarch --disable-werror --with-long-double-128 --enable-checking=release --build=powerpc64le-linux-gnu --host=powerpc64le-linux-gnu --target=powerpc64le-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu/IBM 5.4.0-6ubuntu1~16.04.4) ]
+  ignore line: [Reading specs from /usr/lib/gcc/powerpc64le-linux-gnu/5/libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f123a' '-shared-libgcc' '-mcpu=power8']
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/:/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/:/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../../lib/:/lib/powerpc64le-linux-gnu/:/lib/../lib/:/usr/lib/powerpc64le-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f123a' '-shared-libgcc' '-mcpu=power8']
+  link line: [ /usr/lib/gcc/powerpc64le-linux-gnu/5/collect2 -plugin /usr/lib/gcc/powerpc64le-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/powerpc64le-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfq32JU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -V -m elf64lppc --hash-style=gnu --as-needed -dynamic-linker /lib64/ld64.so.2 -z relro -o cmTC_f123a /usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crt1.o /usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crti.o /usr/lib/gcc/powerpc64le-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/powerpc64le-linux-gnu/5 -L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu -L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../../lib -L/lib/powerpc64le-linux-gnu -L/lib/../lib -L/usr/lib/powerpc64le-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../.. CMakeFiles/cmTC_f123a.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/powerpc64le-linux-gnu/5/crtend.o /usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/powerpc64le-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/powerpc64le-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/powerpc64le-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccfq32JU.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-V] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf64lppc] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f123a] ==> ignore
+    arg [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/powerpc64le-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/powerpc64le-linux-gnu/5] ==> dir [/usr/lib/gcc/powerpc64le-linux-gnu/5]
+    arg [-L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu] ==> dir [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu]
+    arg [-L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../../lib]
+    arg [-L/lib/powerpc64le-linux-gnu] ==> dir [/lib/powerpc64le-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/powerpc64le-linux-gnu] ==> dir [/usr/lib/powerpc64le-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_f123a.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/powerpc64le-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/powerpc64le-linux-gnu/5] ==> [/usr/lib/gcc/powerpc64le-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu] ==> [/usr/lib/powerpc64le-linux-gnu]
+  collapse library dir [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/powerpc64le-linux-gnu] ==> [/lib/powerpc64le-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/powerpc64le-linux-gnu] ==> [/usr/lib/powerpc64le-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [gfortran;m;m;c]
+  implicit dirs: [/usr/lib/gcc/powerpc64le-linux-gnu/5;/usr/lib/powerpc64le-linux-gnu;/usr/lib;/lib/powerpc64le-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9669d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9669d.dir/build.make CMakeFiles/cmTC_9669d.dir/build
+make[1]: Entering directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_9669d.dir/testFortranCompilerF90.f90.o
+/usr/bin/f95     -c /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_9669d.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTC_9669d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9669d.dir/link.txt --verbose=1
+/usr/bin/f95       CMakeFiles/cmTC_9669d.dir/testFortranCompilerF90.f90.o  -o cmTC_9669d  
+make[1]: Leaving directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_70278/fast"
+/usr/bin/make -f CMakeFiles/cmTC_70278.dir/build.make CMakeFiles/cmTC_70278.dir/build
+make[1]: Entering directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70278.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_70278.dir/testCCompiler.c.o   -c /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_70278
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70278.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_70278.dir/testCCompiler.c.o  -o cmTC_70278 -rdynamic 
+make[1]: Leaving directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5fe11/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5fe11.dir/build.make CMakeFiles/cmTC_5fe11.dir/build
+make[1]: Entering directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5fe11.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_5fe11.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_5fe11
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fe11.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_5fe11.dir/CMakeCCompilerABI.c.o  -o cmTC_5fe11 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/powerpc64le-linux-gnu/5/lto-wrapper
+Target: powerpc64le-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/IBM 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-ppc64el/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-ppc64el --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-ppc64el --with-arch-directory=ppc64le --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-secureplt --with-cpu=power8 --enable-targets=powerpcle-linux --disable-multilib --enable-multiarch --disable-werror --with-long-double-128 --enable-checking=release --build=powerpc64le-linux-gnu --host=powerpc64le-linux-gnu --target=powerpc64le-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu/IBM 5.4.0-6ubuntu1~16.04.4) 
+COMPILER_PATH=/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/:/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/:/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../../lib/:/lib/powerpc64le-linux-gnu/:/lib/../lib/:/usr/lib/powerpc64le-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5fe11' '-rdynamic' '-mcpu=power8'
+ /usr/lib/gcc/powerpc64le-linux-gnu/5/collect2 -plugin /usr/lib/gcc/powerpc64le-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/powerpc64le-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccaOaRYd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -V -m elf64lppc --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld64.so.2 -z relro -o cmTC_5fe11 /usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crt1.o /usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crti.o /usr/lib/gcc/powerpc64le-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/powerpc64le-linux-gnu/5 -L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu -L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../../lib -L/lib/powerpc64le-linux-gnu -L/lib/../lib -L/usr/lib/powerpc64le-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../.. CMakeFiles/cmTC_5fe11.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/powerpc64le-linux-gnu/5/crtend.o /usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crtn.o
+GNU ld (GNU Binutils for Ubuntu) 2.26.1
+  Supported emulations:
+   elf64lppc
+   elf32lppc
+   elf32lppclinux
+   elf32lppcsim
+   elf32ppclinux
+   elf32ppc
+   elf32ppcsim
+   elf64ppc
+make[1]: Leaving directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5fe11/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_5fe11.dir/build.make CMakeFiles/cmTC_5fe11.dir/build]
+  ignore line: [make[1]: Entering directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_5fe11.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_5fe11.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_5fe11]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fe11.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_5fe11.dir/CMakeCCompilerABI.c.o  -o cmTC_5fe11 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/powerpc64le-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: powerpc64le-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/IBM 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-ppc64el/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-ppc64el --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-ppc64el --with-arch-directory=ppc64le --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-secureplt --with-cpu=power8 --enable-targets=powerpcle-linux --disable-multilib --enable-multiarch --disable-werror --with-long-double-128 --enable-checking=release --build=powerpc64le-linux-gnu --host=powerpc64le-linux-gnu --target=powerpc64le-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu/IBM 5.4.0-6ubuntu1~16.04.4) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/:/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/:/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../../lib/:/lib/powerpc64le-linux-gnu/:/lib/../lib/:/usr/lib/powerpc64le-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5fe11' '-rdynamic' '-mcpu=power8']
+  link line: [ /usr/lib/gcc/powerpc64le-linux-gnu/5/collect2 -plugin /usr/lib/gcc/powerpc64le-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/powerpc64le-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccaOaRYd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -V -m elf64lppc --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld64.so.2 -z relro -o cmTC_5fe11 /usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crt1.o /usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crti.o /usr/lib/gcc/powerpc64le-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/powerpc64le-linux-gnu/5 -L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu -L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../../lib -L/lib/powerpc64le-linux-gnu -L/lib/../lib -L/usr/lib/powerpc64le-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../.. CMakeFiles/cmTC_5fe11.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/powerpc64le-linux-gnu/5/crtend.o /usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/powerpc64le-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/powerpc64le-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/powerpc64le-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccaOaRYd.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-V] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf64lppc] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5fe11] ==> ignore
+    arg [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/powerpc64le-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/powerpc64le-linux-gnu/5] ==> dir [/usr/lib/gcc/powerpc64le-linux-gnu/5]
+    arg [-L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu] ==> dir [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu]
+    arg [-L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../../lib]
+    arg [-L/lib/powerpc64le-linux-gnu] ==> dir [/lib/powerpc64le-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/powerpc64le-linux-gnu] ==> dir [/usr/lib/powerpc64le-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_5fe11.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/powerpc64le-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/powerpc64le-linux-gnu/5] ==> [/usr/lib/gcc/powerpc64le-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu] ==> [/usr/lib/powerpc64le-linux-gnu]
+  collapse library dir [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/powerpc64le-linux-gnu] ==> [/lib/powerpc64le-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/powerpc64le-linux-gnu] ==> [/usr/lib/powerpc64le-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/powerpc64le-linux-gnu/5;/usr/lib/powerpc64le-linux-gnu;/usr/lib;/lib/powerpc64le-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_24613/fast"
+/usr/bin/make -f CMakeFiles/cmTC_24613.dir/build.make CMakeFiles/cmTC_24613.dir/build
+make[1]: Entering directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24613.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_24613.dir/feature_tests.c.o   -c /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/feature_tests.c
+Linking C executable cmTC_24613
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24613.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_24613.dir/feature_tests.c.o  -o cmTC_24613 -rdynamic 
+make[1]: Leaving directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51f9b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_51f9b.dir/build.make CMakeFiles/cmTC_51f9b.dir/build
+make[1]: Entering directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51f9b.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_51f9b.dir/feature_tests.c.o   -c /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/feature_tests.c
+Linking C executable cmTC_51f9b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51f9b.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_51f9b.dir/feature_tests.c.o  -o cmTC_51f9b -rdynamic 
+make[1]: Leaving directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7c732/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7c732.dir/build.make CMakeFiles/cmTC_7c732.dir/build
+make[1]: Entering directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c732.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_7c732.dir/feature_tests.c.o   -c /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7c732
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c732.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_7c732.dir/feature_tests.c.o  -o cmTC_7c732 -rdynamic 
+make[1]: Leaving directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ccaf5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ccaf5.dir/build.make CMakeFiles/cmTC_ccaf5.dir/build
+make[1]: Entering directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ccaf5.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_ccaf5.dir/testCXXCompiler.cxx.o -c /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_ccaf5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccaf5.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_ccaf5.dir/testCXXCompiler.cxx.o  -o cmTC_ccaf5 -rdynamic 
+make[1]: Leaving directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7dec9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7dec9.dir/build.make CMakeFiles/cmTC_7dec9.dir/build
+make[1]: Entering directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7dec9.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_7dec9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_7dec9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7dec9.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_7dec9.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7dec9 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/powerpc64le-linux-gnu/5/lto-wrapper
+Target: powerpc64le-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/IBM 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-ppc64el/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-ppc64el --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-ppc64el --with-arch-directory=ppc64le --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-secureplt --with-cpu=power8 --enable-targets=powerpcle-linux --disable-multilib --enable-multiarch --disable-werror --with-long-double-128 --enable-checking=release --build=powerpc64le-linux-gnu --host=powerpc64le-linux-gnu --target=powerpc64le-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu/IBM 5.4.0-6ubuntu1~16.04.4) 
+COMPILER_PATH=/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/:/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/:/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../../lib/:/lib/powerpc64le-linux-gnu/:/lib/../lib/:/usr/lib/powerpc64le-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7dec9' '-rdynamic' '-shared-libgcc' '-mcpu=power8'
+ /usr/lib/gcc/powerpc64le-linux-gnu/5/collect2 -plugin /usr/lib/gcc/powerpc64le-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/powerpc64le-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4KCnDC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -V -m elf64lppc --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld64.so.2 -z relro -o cmTC_7dec9 /usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crt1.o /usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crti.o /usr/lib/gcc/powerpc64le-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/powerpc64le-linux-gnu/5 -L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu -L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../../lib -L/lib/powerpc64le-linux-gnu -L/lib/../lib -L/usr/lib/powerpc64le-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../.. CMakeFiles/cmTC_7dec9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/powerpc64le-linux-gnu/5/crtend.o /usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crtn.o
+GNU ld (GNU Binutils for Ubuntu) 2.26.1
+  Supported emulations:
+   elf64lppc
+   elf32lppc
+   elf32lppclinux
+   elf32lppcsim
+   elf32ppclinux
+   elf32ppc
+   elf32ppcsim
+   elf64ppc
+make[1]: Leaving directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_7dec9/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_7dec9.dir/build.make CMakeFiles/cmTC_7dec9.dir/build]
+  ignore line: [make[1]: Entering directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_7dec9.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_7dec9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_7dec9]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7dec9.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_7dec9.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7dec9 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/powerpc64le-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: powerpc64le-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/IBM 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-ppc64el/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-ppc64el --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-ppc64el --with-arch-directory=ppc64le --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-secureplt --with-cpu=power8 --enable-targets=powerpcle-linux --disable-multilib --enable-multiarch --disable-werror --with-long-double-128 --enable-checking=release --build=powerpc64le-linux-gnu --host=powerpc64le-linux-gnu --target=powerpc64le-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu/IBM 5.4.0-6ubuntu1~16.04.4) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/:/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/powerpc64le-linux-gnu/5/:/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/:/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../../lib/:/lib/powerpc64le-linux-gnu/:/lib/../lib/:/usr/lib/powerpc64le-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7dec9' '-rdynamic' '-shared-libgcc' '-mcpu=power8']
+  link line: [ /usr/lib/gcc/powerpc64le-linux-gnu/5/collect2 -plugin /usr/lib/gcc/powerpc64le-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/powerpc64le-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4KCnDC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -V -m elf64lppc --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld64.so.2 -z relro -o cmTC_7dec9 /usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crt1.o /usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crti.o /usr/lib/gcc/powerpc64le-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/powerpc64le-linux-gnu/5 -L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu -L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../../lib -L/lib/powerpc64le-linux-gnu -L/lib/../lib -L/usr/lib/powerpc64le-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../.. CMakeFiles/cmTC_7dec9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/powerpc64le-linux-gnu/5/crtend.o /usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/powerpc64le-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/powerpc64le-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/powerpc64le-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc4KCnDC.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-V] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf64lppc] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7dec9] ==> ignore
+    arg [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/powerpc64le-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/powerpc64le-linux-gnu/5] ==> dir [/usr/lib/gcc/powerpc64le-linux-gnu/5]
+    arg [-L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu] ==> dir [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu]
+    arg [-L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../../lib]
+    arg [-L/lib/powerpc64le-linux-gnu] ==> dir [/lib/powerpc64le-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/powerpc64le-linux-gnu] ==> dir [/usr/lib/powerpc64le-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/powerpc64le-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_7dec9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/powerpc64le-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/powerpc64le-linux-gnu/5] ==> [/usr/lib/gcc/powerpc64le-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../powerpc64le-linux-gnu] ==> [/usr/lib/powerpc64le-linux-gnu]
+  collapse library dir [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/powerpc64le-linux-gnu] ==> [/lib/powerpc64le-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/powerpc64le-linux-gnu] ==> [/usr/lib/powerpc64le-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/powerpc64le-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/powerpc64le-linux-gnu/5;/usr/lib/powerpc64le-linux-gnu;/usr/lib;/lib/powerpc64le-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0f8de/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0f8de.dir/build.make CMakeFiles/cmTC_0f8de.dir/build
+make[1]: Entering directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0f8de.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_0f8de.dir/feature_tests.cxx.o -c /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0f8de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f8de.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_0f8de.dir/feature_tests.cxx.o  -o cmTC_0f8de -rdynamic 
+make[1]: Leaving directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f513d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f513d.dir/build.make CMakeFiles/cmTC_f513d.dir/build
+make[1]: Entering directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f513d.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_f513d.dir/feature_tests.cxx.o -c /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f513d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f513d.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_f513d.dir/feature_tests.cxx.o  -o cmTC_f513d -rdynamic 
+make[1]: Leaving directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6f8c6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6f8c6.dir/build.make CMakeFiles/cmTC_6f8c6.dir/build
+make[1]: Entering directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6f8c6.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_6f8c6.dir/feature_tests.cxx.o -c /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6f8c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f8c6.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_6f8c6.dir/feature_tests.cxx.o  -o cmTC_6f8c6 -rdynamic 
+make[1]: Leaving directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_90674/fast"
+/usr/bin/make -f CMakeFiles/cmTC_90674.dir/build.make CMakeFiles/cmTC_90674.dir/build
+make[1]: Entering directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90674.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -O3 -DLINUX=1  -pthread -D_REENTRANT  -fopenmp -m64 -I/include    -o CMakeFiles/cmTC_90674.dir/CheckIncludeFile.c.o   -c /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_90674
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90674.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -O3 -DLINUX=1  -pthread -D_REENTRANT  -fopenmp -m64 -I$(MKLROOT)/include     CMakeFiles/cmTC_90674.dir/CheckIncludeFile.c.o  -o cmTC_90674 -rdynamic 
+make[1]: Leaving directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95544/fast"
+/usr/bin/make -f CMakeFiles/cmTC_95544.dir/build.make CMakeFiles/cmTC_95544.dir/build
+make[1]: Entering directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95544.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wall -O3 -DLINUX=1  -pthread -D_REENTRANT  -fopenmp -m64 -I/include    -o CMakeFiles/cmTC_95544.dir/CheckSymbolExists.c.o   -c /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_95544
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95544.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -O3 -DLINUX=1  -pthread -D_REENTRANT  -fopenmp -m64 -I$(MKLROOT)/include     CMakeFiles/cmTC_95544.dir/CheckSymbolExists.c.o  -o cmTC_95544 -rdynamic 
+make[1]: Leaving directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+
+File /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test RMG_ASYNC_ALLREDUCE_INTERNAL succeeded with the following output:
+Change Dir: /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b2eec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b2eec.dir/build.make CMakeFiles/cmTC_b2eec.dir/build
+make[1]: Entering directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b2eec.dir/src.c.o
+/usr/bin/cc   -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include -I/usr/lib/openmpi/include -I/usr/lib/openmpi/include/openmpi  -Wall -O3 -DLINUX=1  -pthread -D_REENTRANT  -fopenmp -m64 -I/include -DRMG_ASYNC_ALLREDUCE_INTERNAL   -o CMakeFiles/cmTC_b2eec.dir/src.c.o   -c /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp/src.c
+/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp/src.c:6:28: warning: ‘comm’ is used uninitialized in this function [-Wuninitialized]
+                            MPI_Iallreduce(MPI_IN_PLACE, tarray, n, MPI_INT, MPI_SUM, comm, &MPI_reqeigs);                           
+                            ^
+Linking C executable cmTC_b2eec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2eec.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -O3 -DLINUX=1  -pthread -D_REENTRANT  -fopenmp -m64 -I$(MKLROOT)/include -DRMG_ASYNC_ALLREDUCE_INTERNAL    CMakeFiles/cmTC_b2eec.dir/src.c.o  -o cmTC_b2eec -rdynamic /usr/lib/openmpi/lib/libmpi.so -Wl,-rpath,/usr/lib/openmpi/lib 
+make[1]: Leaving directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <mpi.h>
+                           int main(int argc, char **argv) {
+                           int tarray[100], n=100;
+                           MPI_Comm  comm;
+                           MPI_Request MPI_reqeigs;
+                           MPI_Iallreduce(MPI_IN_PLACE, tarray, n, MPI_INT, MPI_SUM, comm, &MPI_reqeigs);                           
+                         }
+Performing C SOURCE FILE Test USE_PLPLOT_LIBS_INTERNAL succeeded with the following output:
+Change Dir: /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e30fe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e30fe.dir/build.make CMakeFiles/cmTC_e30fe.dir/build
+make[1]: Entering directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e30fe.dir/src.c.o
+/usr/bin/cc   -I/home/deep8/workspace/benchmark/RMG/source/plplot.git/install/include -I/home/deep8/workspace/benchmark/RMG/source/plplot.git/install/include/plplot  -Wall -O3 -DLINUX=1  -pthread -D_REENTRANT  -fopenmp -m64 -I/include -DUSE_PLPLOT_LIBS_INTERNAL   -o CMakeFiles/cmTC_e30fe.dir/src.c.o   -c /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e30fe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e30fe.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -O3 -DLINUX=1  -pthread -D_REENTRANT  -fopenmp -m64 -I$(MKLROOT)/include -DUSE_PLPLOT_LIBS_INTERNAL    CMakeFiles/cmTC_e30fe.dir/src.c.o  -o cmTC_e30fe -rdynamic /home/deep8/workspace/benchmark/RMG/source/plplot.git/install/lib/libplplotd.so -Wl,-rpath,/home/deep8/workspace/benchmark/RMG/source/plplot.git/install/lib 
+make[1]: Leaving directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <plplot.h>
+                       int main(int argc, char **argv) {
+                       plinit();
+                     }
+Performing C++ SOURCE FILE Test CHECK_OPENBABEL_INTERNAL2 succeeded with the following output:
+Change Dir: /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b642f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b642f.dir/build.make CMakeFiles/cmTC_b642f.dir/build
+make[1]: Entering directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b642f.dir/src.cxx.o
+/usr/bin/c++    -I/home/deep8/workspace/benchmark/RMG/source/openbabel-2.3.2/install/include/openbabel-2.0  -Wall -Wno-unused-local-typedefs -O3 -std=c++11 -Wno-write-strings -DLINUX=1  -pthread -D_REENTRANT   -fopenmp -m64 -pthread -I/include -DCHECK_OPENBABEL_INTERNAL2   -o CMakeFiles/cmTC_b642f.dir/src.cxx.o -c /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp/src.cxx
+/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main(int, char**)’:
+/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp/src.cxx:11:11: warning: unused variable ‘n’ [-Wunused-variable]
+       int n = conv.Convert();
+           ^
+Linking CXX executable cmTC_b642f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b642f.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wno-unused-local-typedefs -O3 -std=c++11 -Wno-write-strings -DLINUX=1  -pthread -D_REENTRANT   -fopenmp -m64 -pthread -I$(MKLROOT)/include -DCHECK_OPENBABEL_INTERNAL2    CMakeFiles/cmTC_b642f.dir/src.cxx.o  -o cmTC_b642f -rdynamic /home/deep8/workspace/benchmark/RMG/source/openbabel-2.3.2/install/lib/libopenbabel.so.4 -Wl,-rpath,/home/deep8/workspace/benchmark/RMG/source/openbabel-2.3.2/install/lib 
+make[1]: Leaving directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <iostream>
+    #include <openbabel/obconversion.h>
+    using namespace std;
+    int main(int argc,char **argv)
+    {
+      ifstream ifs(argv[1]);
+      ofstream ofs(argv[2]);
+      OpenBabel::OBConversion conv(&ifs, &ofs);
+      conv.SetInAndOutFormats("CML","MOL");
+      int n = conv.Convert();
+      return 0;
+    }
+    
+Determining if the Fortran sgemm exists passed with the following output:
+Change Dir: /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c9759/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c9759.dir/build.make CMakeFiles/cmTC_c9759.dir/build
+make[1]: Entering directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_c9759.dir/testFortranCompiler.f.o
+/usr/bin/f95    -O3 -fopenmp  -lg2c -cpp -c    -c /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_c9759.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_c9759
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9759.dir/link.txt --verbose=1
+/usr/bin/f95     -O3 -fopenmp  -lg2c -cpp -c  CMakeFiles/cmTC_c9759.dir/testFortranCompiler.f.o  -o cmTC_c9759  /home/deep8/anaconda3/lib/libopenblas.so -Wl,-rpath,/home/deep8/anaconda3/lib 
+f95: warning: CMakeFiles/cmTC_c9759.dir/testFortranCompiler.f.o: linker input file unused because linking not done
+f95: warning: /home/deep8/anaconda3/lib/libopenblas.so: linker input file unused because linking not done
+make[1]: Leaving directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+
+
+Determining if the Fortran cheev exists passed with the following output:
+Change Dir: /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6adc5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6adc5.dir/build.make CMakeFiles/cmTC_6adc5.dir/build
+make[1]: Entering directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_6adc5.dir/testFortranCompiler.f.o
+/usr/bin/f95    -O3 -fopenmp  -lg2c -cpp -c    -c /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_6adc5.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_6adc5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6adc5.dir/link.txt --verbose=1
+/usr/bin/f95     -O3 -fopenmp  -lg2c -cpp -c  CMakeFiles/cmTC_6adc5.dir/testFortranCompiler.f.o  -o cmTC_6adc5  /usr/lib/liblapack.so /home/deep8/anaconda3/lib/libopenblas.so -Wl,-rpath,/home/deep8/anaconda3/lib 
+f95: warning: CMakeFiles/cmTC_6adc5.dir/testFortranCompiler.f.o: linker input file unused because linking not done
+f95: warning: /usr/lib/liblapack.so: linker input file unused because linking not done
+f95: warning: /home/deep8/anaconda3/lib/libopenblas.so: linker input file unused because linking not done
+make[1]: Leaving directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+
+

@@ -1,0 +1,2 @@
+/usr/bin/ar cr libMG.a  CMakeFiles/MG.dir/Mgrid_Cbindings.cpp.o CMakeFiles/MG.dir/find_grid_owner.c.o
+/usr/bin/ranlib libMG.a

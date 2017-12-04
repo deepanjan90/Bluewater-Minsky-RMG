@@ -1,0 +1,5 @@
+sitesym_database.lo: \
+ /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/lib/spglib-1.6.3/src/sitesym_database.c \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

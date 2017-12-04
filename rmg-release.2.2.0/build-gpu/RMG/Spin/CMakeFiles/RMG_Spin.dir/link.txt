@@ -1,0 +1,2 @@
+/usr/bin/ar qc libRMG_Spin.a  CMakeFiles/RMG_Spin.dir/GetOppositeEigvals.cpp.o CMakeFiles/RMG_Spin.dir/GetOppositeOccupancies.cpp.o CMakeFiles/RMG_Spin.dir/get_rho_oppo.c.o
+/usr/bin/ranlib libRMG_Spin.a

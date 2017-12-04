@@ -1,0 +1,23 @@
+spg_database.lo: \
+ /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/lib/spglib-1.6.3/src/spg_database.c \
+ /usr/include/stdc-predef.h \
+ /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/lib/spglib-1.6.3/src/spg_database.h \
+ /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/lib/spglib-1.6.3/src/lattice.h \
+ /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/lib/spglib-1.6.3/src/mathfunc.h \
+ /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/lib/spglib-1.6.3/src/pointgroup.h \
+ /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/lib/spglib-1.6.3/src/symmetry.h \
+ /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/lib/spglib-1.6.3/src/cell.h
+
+/usr/include/stdc-predef.h:
+
+/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/lib/spglib-1.6.3/src/spg_database.h:
+
+/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/lib/spglib-1.6.3/src/lattice.h:
+
+/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/lib/spglib-1.6.3/src/mathfunc.h:
+
+/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/lib/spglib-1.6.3/src/pointgroup.h:
+
+/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/lib/spglib-1.6.3/src/symmetry.h:
+
+/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/lib/spglib-1.6.3/src/cell.h:

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libInternalPseudo.a  CMakeFiles/InternalPseudo.dir/InternalPseudo.cpp.o
+/usr/bin/ranlib libInternalPseudo.a

@@ -1,0 +1,11 @@
+tetrahedron_method.lo: \
+ /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/lib/spglib-1.6.3/src/tetrahedron_method.c \
+ /usr/include/stdc-predef.h \
+ /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/lib/spglib-1.6.3/src/mathfunc.h \
+ /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/lib/spglib-1.6.3/src/debug.h
+
+/usr/include/stdc-predef.h:
+
+/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/lib/spglib-1.6.3/src/mathfunc.h:
+
+/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/lib/spglib-1.6.3/src/debug.h:

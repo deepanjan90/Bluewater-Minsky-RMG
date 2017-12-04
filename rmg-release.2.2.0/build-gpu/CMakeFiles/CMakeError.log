@@ -1,0 +1,39 @@
+Performing C++ SOURCE FILE Test CHECK_OPENBABEL_INTERNAL1 failed with the following output:
+Change Dir: /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6d42c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6d42c.dir/build.make CMakeFiles/cmTC_6d42c.dir/build
+make[1]: Entering directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6d42c.dir/src.cxx.o
+/usr/bin/c++    -I/home/deep8/workspace/benchmark/RMG/source/openbabel-2.3.2/install/include/openbabel-2.0/openbabel  -Wall -Wno-unused-local-typedefs -O3 -std=c++11 -Wno-write-strings -DLINUX=1  -pthread -D_REENTRANT   -fopenmp -m64 -pthread -I/include -DCHECK_OPENBABEL_INTERNAL1   -o CMakeFiles/cmTC_6d42c.dir/src.cxx.o -c /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp/src.cxx
+In file included from /usr/include/c++/5/clocale:42:0,
+                 from /usr/include/powerpc64le-linux-gnu/c++/5/bits/c++locale.h:41,
+                 from /usr/include/c++/5/bits/localefwd.h:40,
+                 from /usr/include/c++/5/ios:41,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from /home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp/src.cxx:2:
+/home/deep8/workspace/benchmark/RMG/source/openbabel-2.3.2/install/include/openbabel-2.0/openbabel/locale.h:23:35: fatal error: openbabel/babelconfig.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_6d42c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6d42c.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_6d42c.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/deep8/workspace/benchmark/RMG/source/rmg-release.2.2.0/build-gpu/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6d42c/fast' failed
+make: *** [cmTC_6d42c/fast] Error 2
+
+Source file was:
+
+#include <iostream>
+#include <openbabel/obconversion.h>
+using namespace std;
+int main(int argc,char **argv)
+{
+  int m;
+  ifstream ifs(argv[1]);
+  ofstream ofs(argv[2]);
+  OpenBabel::OBConversion conv(&ifs, &ofs);
+  conv.SetInAndOutFormats("CML","MOL");
+  int n = conv.Convert();
+  return 0;
+}
+

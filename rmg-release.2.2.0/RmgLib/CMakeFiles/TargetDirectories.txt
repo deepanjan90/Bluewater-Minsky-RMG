@@ -1,0 +1,3 @@
+/mnt/ssd2/briggs/Projects/RMG_RELEASE1/codes/RmgLib/CMakeFiles/RmgLib.dir
+/mnt/ssd2/briggs/Projects/RMG_RELEASE1/codes/RmgLib/CMakeFiles/RmgLibShared.dir
+/mnt/ssd2/briggs/Projects/RMG_RELEASE1/codes/RmgLib/CMakeFiles/poisson_pbc.dir

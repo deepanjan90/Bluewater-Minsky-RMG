@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/US_PP.dir/PackGftoc.cpp.o"
+  "CMakeFiles/US_PP.dir/GetPhaseSpecies.cpp.o"
+  "CMakeFiles/US_PP.dir/InitClebschGordan.cpp.o"
+  "CMakeFiles/US_PP.dir/Ylm.cpp.o"
+  "CMakeFiles/US_PP.dir/CubicHarmonic.cpp.o"
+  "CMakeFiles/US_PP.dir/InitWeight.cpp.o"
+  "CMakeFiles/US_PP.dir/InitDelocalizedWeight.cpp.o"
+  "CMakeFiles/US_PP.dir/InitWeightOne.cpp.o"
+  "CMakeFiles/US_PP.dir/InitDelocalizedObject.cpp.o"
+  "CMakeFiles/US_PP.dir/InitLocalForward.cpp.o"
+  "CMakeFiles/US_PP.dir/InitLocalBackward.cpp.o"
+  "CMakeFiles/US_PP.dir/FindFftwPhaseLocalpp.cpp.o"
+  "CMakeFiles/US_PP.dir/Radius2grid.cpp.o"
+  "CMakeFiles/US_PP.dir/FindPhase.cpp.o"
+  "CMakeFiles/US_PP.dir/Atomic.cpp.o"
+  "CMakeFiles/US_PP.dir/Atomic_Cbindings.cpp.o"
+  "CMakeFiles/US_PP.dir/InitPseudo.cpp.o"
+  "CMakeFiles/US_PP.dir/InitQfunct.cpp.o"
+  "CMakeFiles/US_PP.dir/InitLocalObject.cpp.o"
+  "CMakeFiles/US_PP.dir/US_Cbindings.cpp.o"
+  "CMakeFiles/US_PP.dir/lcao_get_rho.c.o"
+  "CMakeFiles/US_PP.dir/init_efield.c.o"
+  "CMakeFiles/US_PP.dir/weight_shift_center.c.o"
+  "CMakeFiles/US_PP.dir/ylmr2.c.o"
+  "CMakeFiles/US_PP.dir/linint.c.o"
+  "CMakeFiles/US_PP.dir/get_QnmL.c.o"
+  "CMakeFiles/US_PP.dir/radiff.c.o"
+  "CMakeFiles/US_PP.dir/ylm.c.o"
+  "CMakeFiles/US_PP.dir/GetQI.cpp.o"
+  "CMakeFiles/US_PP.dir/get_qqq.c.o"
+  "CMakeFiles/US_PP.dir/radint1.c.o"
+  "CMakeFiles/US_PP.dir/get_ddd.c.o"
+  "CMakeFiles/US_PP.dir/radint.c.o"
+  "CMakeFiles/US_PP.dir/pack_gftoc.c.o"
+  "libUS_PP.pdb"
+  "libUS_PP.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C CXX)
+  include(CMakeFiles/US_PP.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,7 @@
+# The fortran modules provided by this target.
+provides
+ constants
+ funct
+ io_global
+ kinds
+ vdw_splines

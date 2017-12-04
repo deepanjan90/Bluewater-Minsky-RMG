@@ -1,0 +1,6 @@
+RMG initialization ... 1 image(s) total, 1 per node. 20 MPI processes/image. 
+device 0: Tesla P100-SXM2-16GB, 1480.5 MHz clock, 16276.2 MB memory
+device 1: Tesla P100-SXM2-16GB, 1480.5 MHz clock, 16276.2 MB memory
+device 2: Tesla P100-SXM2-16GB, 1480.5 MHz clock, 16276.2 MB memory
+device 3: Tesla P100-SXM2-16GB, 1480.5 MHz clock, 16276.2 MB memory
+Thread level 2.
